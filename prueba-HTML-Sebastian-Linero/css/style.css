@@ -1,0 +1,343 @@
+.logo {
+    background-color: black;
+    width: 500px;
+    height: 100px;
+
+}
+
+.auto-incio {
+    width: 800px;
+    height: 450px;
+}
+
+
+.roboto-body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 15px;
+    font-style: normal;
+    font-variation-settings: "wdth" 100px;
+}
+
+
+/*Ajustes generales a todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+    padding: 5px 0;
+    box-shadow: 0 2px 5px rgb(71, 69, 69);
+}
+
+body {
+
+    background: #202020;
+    color: #f5f5f5;
+    text-align: center;
+
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    text-shadow: 1px 1px 1px #b91f1f;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.8s ease;
+    list-style: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+nav a:hover {
+    color: #ff3333;
+    z-index: 10;
+    transition: transform 0.8s;
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ff3333;
+    text-shadow: 1px 1px 2px #b91f1f;
+}
+
+h2 {
+    color: #ff3333;
+    text-shadow: 1px 1px 2px #b91f1f;
+    gap: 20px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: 2px 2px 4px rgb(160, 156, 156);
+}
+
+.redes-sociales {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    transition: color 0.8s ease;
+}
+
+.redes-sociales:hover {
+    transition: transform 0.5s;
+    transform: scale(1.15);
+}
+
+.contacto {
+    flex: 1 1 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto form {
+    width: 100%;
+    max-width: 350px;
+    background: #353434;
+    padding: 25px 20px 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contacto label {
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #f5f5f5
+}
+
+.contacto input,
+.contacto textarea {
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 1rem;
+    background: #745454;
+    color: #f5f5f5;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+.contacto input[type="submit"] {
+    background: #b91f1f;
+    color: #23272f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contacto input[type="submit"]:hover {
+    background: #ff3333;
+}
+
+.correo-numero {
+    padding: 20px 10px;
+}
+
+.sobre-la-empresa {
+    background-image: url(/img/lineas-fondo.svg);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 900px;
+    padding: 10px 20px;
+
+}
+
+.mision {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #ffffff;
+    flex-wrap: wrap;
+}
+
+.mision-foto {
+    padding: 50px 10px;
+    width: 600px;
+    height: 450px;
+}
+
+.vision,
+p {
+    padding: 20px;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.vision-foto {
+    width: 600px;
+    height: 450px;
+    padding: 50px 10px;
+}
+
+nav .categorias {
+
+    text-align: center;
+
+
+}
+
+#autos {
+    box-sizing: 50% border-box;
+}
+
+#boutique {
+    box-sizing: 500px 500px;
+}
+
+#rin {
+    padding: 50px 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#auto {
+    padding: 50px 10px;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    grid-template-columns: column;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+
+#auto:hover {
+    transform: scale(1.50);
+}
+
+#ropa {
+    padding: 50px 10px;
+    width: 350px;
+    height: 450px;
+}
+
+#ropa:hover {
+    transform: scale(1.50);
+}
+
+#rin {
+    padding: 50px 10px;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    grid-template-columns: column;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+
+#rin:hover {
+    transform: scale(1.50);
+}
+
+/* Escritorio (1024px+) */
+@media only screen and (min-width: 1024px) {
+
+    /* Estilos para escritorio */
+    .logo {
+        width: 500px;
+    }
+
+    .auto-incio {
+        width: 800px;
+    }
+
+    .sobre-la-empresa {
+        width: 900px;
+    }
+
+    .mision-foto {
+        width: 600px;
+    }
+
+    .vision-foto {
+        width: 600px;
+    }
+
+    #auto {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* Tablet (768px) */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+    /* Estilos para tablet */
+    body .producto {
+        width: 300px;
+    }
+}
+
+/* Móvil (480px) */
+@media (max-width: 767px) {
+
+    /* Estilos para móvil */
+    body .producto .ropa1 {
+        width: 200px;
+    }
+
+    .auto-incio .auto .producto {
+        width: 300px;
+    }
+
+    .sobre-la-empresa {
+        width: 400px;
+    }
+
+    .mision-foto {
+        width: 200px;
+    }
+
+    .vision-foto {
+        width: 200px;
+    }
+
+    #auto {
+        width: 150px;
+        height: 150px;
+    }
+}

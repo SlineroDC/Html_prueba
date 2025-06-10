@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlace a CSS-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--Enalce a Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Contactanós</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo.svg" alt="logo empresa">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">¿Quienes Somos?</a></li>
+                <li><a href="productos.html">Nuestros Productos</a></li>
+                <li><a href="/pages/contacto.html">Contactanós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h1>Contactanós</h1>
+            <article class="correo-numero">
+                <p>Si tienes alguna solicitud o peticion especial, estamos aqui para ayudarte</p>
+                <h3>Telefono</h3>
+                <a href="tel:+573044598748">+1 855 7348707</a>
+                <h3>Correo</h3>
+                <a href="mailto:info@mansory.com">info@manosory.com</a>
+            </article>
+            <article class="formulario">
+                <form action="/send" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+            </article>
+
+    </main>
+
+
+    <footer>
+        <article class="redes-sociales">
+            <a href="https://x.com/MANSORYofficial" target="_blank"><img class="redes-sociales" src="../img/x.png"
+                    alt="logox"></a>
+            <a href="https://www.youtube.com/mansory" target="_blank"><img class="redes-sociales"
+                    src="../img/youtube.jpg" alt="logoy"></a>
+            <a href="https://www.facebook.com/mansory/"><img class="redes-sociales" src="../img/facebook.webp"
+                    alt="logof"></a>
+        </article>
+
+        <p class="copy">&copy; 2025 Sebastián Linero para Mansory Luxury</p>
+    </footer>
+</body>
+
+</html>
