@@ -23,8 +23,6 @@ para ver el proyecto descargas el zip e inicias el index.html para iniciar la pa
 ## Estructura del repositorio
 <image src="/img/image.png" alt="Estructura del repositorio">
 
-<image src="/img/image-1.png" alt="Imagen de todas los recursos">
-
 ## Recursos usados
 - Imágenes libres de derechos
 - Fuentes de Google Fonts
