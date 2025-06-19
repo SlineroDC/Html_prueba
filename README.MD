@@ -21,7 +21,9 @@ para ver el proyecto descargas el zip e inicias el index.html para iniciar la pa
 3. Explora el portafolio y contáctame.
 
 ## Estructura del repositorio
-![alt text](image-1.png)
+<image src="/img/image.png" alt="Estructura del repositorio">
+
+<image src="/img/image-1.png" alt="Imagen de todas los recursos">
 
 ## Recursos usados
 - Imágenes libres de derechos
